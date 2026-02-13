@@ -1,6 +1,5 @@
 import { 
   RiWhatsappLine, 
-  RiRobot3Line, 
   RiLinkM, 
   RiMetaFill, 
   RiVerifiedBadgeLine, 
@@ -15,7 +14,6 @@ import { NavItem, Campaign } from './types';
 
 export const MAIN_NAV_ITEMS: NavItem[] = [
   { label: 'Conversaciones', icon: RiWhatsappLine, isActive: true },
-  { label: 'AI Center', icon: RiRobot3Line },
   { label: 'Links de WhatsApp', icon: RiLinkM },
   { label: 'Meta Ads', icon: RiMetaFill },
   { label: 'Plantillas HSM', icon: RiVerifiedBadgeLine },
@@ -27,7 +25,7 @@ export const MAIN_NAV_ITEMS: NavItem[] = [
 ];
 
 export const OTHER_PLATFORMS_ITEMS: NavItem[] = [
-  { label: 'Sales.ai', icon: RiCustomerService2Line },
+  { label: 'Sales Suite', icon: RiCustomerService2Line },
 ];
 
 export const CAMPAIGNS: Campaign[] = [
