@@ -1,0 +1,5 @@
+{
+  "name": "Treble.ai Send Conversation Flow",
+  "description": "A pixel-perfect recreation of the Treble.ai dashboard interface using React, TypeScript, and Tailwind CSS.",
+  "requestFramePermissions": []
+}
